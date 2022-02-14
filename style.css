@@ -11,6 +11,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    padding-top: 30px;
 }
 
 .container{
@@ -133,3 +134,34 @@ a:hover{
     color: #CD5F14;
 
 }
+
+.cadastro{
+    width: 400px;
+}
+
+.senha{
+    display: flex;
+    width: 100px;
+    height: 50px;
+}
+.senha label{
+    margin-top: 5px;
+}
+#icon{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+#icon img{
+    
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    margin-top: -20px;
+    margin-left: -35px;
+    display: flex;
+    border: none;
+    cursor: 0;
+}
+
