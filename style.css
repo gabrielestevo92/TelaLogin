@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto','sans-serif';
+}
+
+body{
+    background-image: url(https://i.imgur.com/DavEe8C.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card{
+    background-color: #A8698640;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 2px 2px 5px 3px #5F4E7A;
+    transition: all .3s ease-out;
+}
+.card:hover{
+    box-shadow: 4px 4px 4px 4px #f3a775 ;   
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #adacb1;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus{
+    border-bottom: 2px solid #CD5F14;
+    border-radius: 10px;
+    border-top: 2px solid #CD5F14;
+    
+    
+    
+
+
+}
+.label-float label{
+    color: white;
+    pointer-events: none;
+    position:absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+
+}
+
+.label-float input:focus + label{
+    font-size: 13px;
+    margin-top: -2px;
+    color: white;
+}
+
+button{
+    background-color: transparent;
+    border-color: #A56887;
+    color: rgb(7, 7, 7);
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease-out;
+}
+
+button:hover{
+    background-color: #A56887;
+    color: #fff
+}
+.justify-center{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+hr{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 60%;
+}
+
+p{
+    color: #f3a775;
+    font-size: 14pt;
+    text-align: center;
+
+}
+
+a{
+    color:#f3a775;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+a:hover{
+    color: #CD5F14;
+
+}
